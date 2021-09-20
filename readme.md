@@ -1,4 +1,4 @@
-#　Reboot Node.js Sandbox
+# Reboot Node.js Sandbox
 
 前のリポジトリがごちゃごちゃしてきたことと
 
