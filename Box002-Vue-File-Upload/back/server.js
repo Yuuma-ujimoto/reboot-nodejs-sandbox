@@ -15,6 +15,9 @@ app.use(cors({
 
 app.post("/post",async (req, res, next) => {
     console.log(req.files)
+    // mvで保存できる
+    // ヤベェ！！！
+    await req.files.file.mv("./files/"+req.files.file.name)
     res.json({message:"アップロード完了！！！！"})
 })
 
